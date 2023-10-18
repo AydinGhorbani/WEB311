@@ -30,6 +30,8 @@ Thumbs.db
 
 # ignore compiled files
 *.com
+*
+.DS_Store
 *.class
 *.dll
 *.exe
