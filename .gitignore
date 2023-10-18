@@ -1,32 +1,38 @@
-# Prerequisites
-*.d
+# ignore node/grunt dependency directories
+node_modules/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Ignore build directories.
+/build
+/dist
 
-# Precompiled Headers
-*.gch
-*.pch
+# ignore composer vendor directory
+/vendor
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# ignore components loaded via Bower
+/bower_components
+
+# ignore jekyll build directory
+/_site
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+*.o
+*.so
+
